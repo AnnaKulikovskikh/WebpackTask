@@ -1,0 +1,32 @@
+{
+  "name": "webpacktask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --more production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaKulikovskikh/WebpackTask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaKulikovskikh/WebpackTask/issues"
+  },
+  "homepage": "https://github.com/AnnaKulikovskikh/WebpackTask#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "http-server": "^0.12.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "core-js": "^3.13.1"
+  }
+}
